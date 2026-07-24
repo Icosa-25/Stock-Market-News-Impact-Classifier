@@ -14,6 +14,12 @@ This project builds a machine learning pipeline to classify financial news into 
 
 The project combines **Natural Language Processing (NLP)** with engineered numerical features extracted from financial news headlines.
 
+## Project Notebook
+
+The complete implementation, including data analysis, feature engineering, model training, evaluation, class-imbalance handling, and fresh-news inference, is available in:
+
+**[Stock_Market_News_Impact_Classifier.ipynb](Stock_Market_News_Impact_Classifier.ipynb)**
+
 ## Machine Learning Pipeline
 
 The project follows the following workflow:
@@ -62,3 +68,16 @@ The API key is intentionally not included in this repository for security reason
 ## Disclaimer
 
 This project predicts **news impact categories (LOW, MEDIUM, HIGH)** and does not directly predict stock price direction or provide financial or investment advice.
+
+## How to Run
+
+1. Clone this repository.
+2. Install the required dependencies:
+
+   pip install -r requirements.txt
+
+3. Place the required dataset (`stk.csv`) in the appropriate project directory.
+4. Open `Stock_Market_News_Impact_Classifier.ipynb` in Jupyter Notebook.
+5. Run the notebook cells sequentially.
+
+For fresh-news inference using NewsAPI, configure your own API key securely as an environment variable. API credentials are not included in this repository.
